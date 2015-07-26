@@ -1,7 +1,7 @@
 #Coursera Data Science
 #Getting and Cleaning Data
 #Course Project
-#Last Modified: 7/24/15
+#Last Modified: 7/25/15
 #========================================================================================
 # Using data from the UCI Human Activity Recognition Using Smartphones Data Set here:
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
@@ -21,9 +21,8 @@
 #unzip("UCIdata.zip")
 #Lines 18-21 above can be used to download data to working directory and unzip
 
-# Load some packages
+# Load packages
 library(plyr)
-library(dplyr)
 
 # Load the test and training data into R
 subjectTest <- read.table("./UCI HAR Dataset/test/subject_test.txt")

@@ -9,6 +9,7 @@ As stated in “README.md”, the data used is the [Human Activity Recognition U
 ###Data Information from UCI Machine Learning Repository
 
 The data is described in the following way (more information can be found in txt files within the data set):
+
 “The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.”
@@ -24,7 +25,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ##Part 1: Merge the training and the test sets to create one data set
 
-The unzipped data file contains a “test” file and a “train” file. The Y components of the test and train folders are composed of numbers 1 through 6 which correspond to activities found in the `activity_labels.txt` (walking, standing, laying, etc). The subject components of the test and train folders contain the ID numbers of the 30 subjects studied. The X components of the test and train folders are a set of observations for each activity and subject. The `features.txt` folder contains labels/features for the observations in the X components.
+The unzipped data file contains a “test” file and a “train” file. Each file contains a set of X data, a set of Y data, and a set of subject data. The Y components of the test and train folders are composed of numbers 1 through 6 which correspond to activities found in the `activity_labels.txt` (walking, standing, laying, etc). The subject components of the test and train folders contain the ID numbers of the 30 subjects studied. The X components of the test and train folders are a set of observations for each activity and subject. The `features.txt` file contains labels/features for the observations in the X components.
 
 A total of 8 files are loaded into R to create:
 `subjectTest`, `Xtest`, `Ytest`, `subjectTrain`, `Xtrain`, `Ytrain`, `activities`, `features`

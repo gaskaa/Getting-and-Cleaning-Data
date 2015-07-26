@@ -1,7 +1,7 @@
 #Getting-and-Cleaning-Data Course Project
 
 ##Introduction
-This repository was made for the Course Project portion of Getting and Cleaning Data from John’s Hopkins  University via Coursera. The goal of the course project is to demonstrate ability to collect, work with, and clean a set of data. The end product is a tidy data set that can be used for later analysis. 
+This repository was made for the Course Project portion of Getting and Cleaning Data from Johns Hopkins  University via Coursera. The goal of the course project is to demonstrate ability to collect, work with, and clean a set of data. The end product is a tidy data set that can be used for later analysis. 
 
 The data used is from the  UCI Machine Learning Repository here
 
