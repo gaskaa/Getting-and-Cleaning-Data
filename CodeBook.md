@@ -38,7 +38,7 @@ Only measurements on the mean and standard deviation for each measurement are ex
 
 ##Part 3: Use descriptive activity names to name the activities in the data set
 
-The subject and activity columns are attached to the mean and standard deviation subset. Each number in the activity column is replaced with the corresponding activity description. The data is then ordered by subject number. 
+The subject and activity columns are attached to the mean and standard deviation subset and named `data`. Each number in the activity column is replaced with the corresponding activity description. The data is then ordered by subject number and named `orderedData`. 
 
 ##Part 4: Appropriately label the data set with descriptive variable names
 
